@@ -10,6 +10,7 @@ import Gallery from '@/components/Gallery'
 import Qualities from '@/components/Qualities'
 import Ending from '@/components/Ending'
 import { motion, AnimatePresence } from 'framer-motion'
+import { LifeStagesSection } from '@/components/LifeStagesSection'
 
 export default function Home() {
   const [started, setStarted] = useState(false)
@@ -26,6 +27,7 @@ export default function Home() {
             transition={{ duration: 2 }}
           >
             <Hero />
+            <LifeStagesSection />
             <Timeline />
             <Highlights />
             <Testimonials />
