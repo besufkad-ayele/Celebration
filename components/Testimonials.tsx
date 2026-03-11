@@ -4,40 +4,40 @@ import { Quote } from 'lucide-react';
 
 const notes = [
   {
-    name: "Abebe K.",
-    role: "Best Friend",
-    message: "To the girl who knows all my secrets and still loves me. Your heart is pure gold, Saron. Happy Birthday!",
-    image: "https://i.pravatar.cc/150?u=abebe"
+    name: "The Bestie",
+    role: "Soul Sister",
+    message: "To the girl who can talk for 4 hours and still forget the initial point of the story. You're the best kind of chaos, Saron! Happy 25th!",
+    image: "/Gallary/0-7(1).png"
   },
   {
-    name: "Martha T.",
-    role: "Sister",
-    message: "Growing up with you has been the greatest gift. You're not just my sister, but my inspiration. Love you!",
-    image: "https://i.pravatar.cc/150?u=martha"
+    name: "Abebe T.",
+    role: "Brother / Stylist",
+    message: "The only person I know who can make an oversized hoodie look like a Vogue cover. Stop stealing my chargers, but keep being iconic.",
+    image: "/Gallary/recent1.png"
   },
   {
-    name: "Samuel G.",
-    role: "Brother",
-    message: "You've always been the strong one. Your resilience and kindness are unmatched. Keep shining, sis!",
-    image: "https://i.pravatar.cc/150?u=samuel"
+    name: "Martha G.",
+    role: "The Voice of Reason",
+    message: "Saron is the only person who can keep 20 browser tabs open and 20 friendships thriving. A true multitasking legend in a pair of cool sneakers.",
+    image: "/Gallary/0-7(2).png"
   },
   {
-    name: "Helen D.",
-    role: "Cousin",
-    message: "Every memory with you is a treasure. Your laughter is infectious and your spirit is beautiful. Have the best day!",
-    image: "https://i.pravatar.cc/150?u=helen"
+    name: "The Squad",
+    role: "Day Ones",
+    message: "Still waiting for you to pick the restaurant after saying 'it doesn't matter'. We wouldn't trade your indecisive sweetness for anything!",
+    image: "/Gallary/recent2.png"
   },
   {
-    name: "Dawit M.",
-    role: "Friend",
-    message: "Happy Birthday, Saron! You're a true gem. May this year bring you as much joy as you bring to others.",
-    image: "https://i.pravatar.cc/150?u=dawit"
+    name: "Abenezer Takele",
+    role: "A friends Friend",
+    message: "From building forts to navigating 25 years of life. You've always had the biggest heart and the loudest laugh. Happy Birthday, Sari!",
+    image: "/Gallary/0-7(3).png"
   },
   {
-    name: "Sara L.",
-    role: "Bestie",
-    message: "To many more years of laughter, adventures, and late-night talks. You're the best, Saron!",
-    image: "https://i.pravatar.cc/150?u=sara"
+    name: "Besufkad  Ayele.",
+    role: "(Cousin) / Secret Keeper 😇👍🏽",
+    message: "Thank you for being the person I can call at 2 AM to discuss nothing and everything. Your grace is matched only by your legendary skincare routine.",
+    image: "/Gallary/recent3.png"
   }
 ];
 
@@ -72,7 +72,7 @@ export default function Testimonials() {
               className="flex-shrink-0 w-[350px] md:w-[450px] p-8 md:p-12 glass rounded-3xl relative group"
             >
               <Quote className="absolute top-8 right-8 text-pink-500/20" size={64} />
-              
+
               <div className="flex items-center gap-4 mb-8">
                 <img
                   src={note.image}

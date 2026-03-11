@@ -296,52 +296,64 @@ export function LifeStagesSection() {
   return (
     <section ref={sectionRef} className="relative bg-night-950">
       {/* ===== INTRO HEADER ===== */}
-      <div className="stages-intro relative min-h-[70vh] flex items-center justify-center text-center px-4 overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-mesh opacity-20" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-candy-500/[0.04] blur-[200px]" />
+      <div className="stages-intro relative min-h-[90vh] flex items-center justify-center text-center px-4 overflow-hidden">
+        {/* Background - Atmospheric & High-End */}
+        <div className="absolute inset-0 pointer-events-none">
+          {/* Base Mesh */}
+          <div className="absolute inset-0 bg-mesh opacity-30" />
+
+          {/* Large Timeline-style blur */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120vw] h-[120vw] bg-pink-500/[0.04] rounded-full blur-[250px]" />
+
+          {/* Radial depth */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,#020202_100%)] opacity-80" />
+
+          {/* Background Image Layer (Dreamy) */}
+          <div
+            className="absolute inset-x-0 top-0 h-[120%] bg-cover bg-center opacity-10 bg-no-repeat grayscale grayscale-100"
+            style={{
+              backgroundImage: `url('/timeline/recent.png')`,
+              filter: 'blur(4px) saturate(0)'
+            }}
+          />
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto">
-          <div className="overflow-hidden mb-2">
-            <p className="stages-intro-line text-sm md:text-base font-heading font-semibold text-candy-400 uppercase tracking-[0.3em]">
-              A Journey Through Life
+        <div className="relative z-10 max-w-5xl mx-auto">
+          <div className="overflow-hidden mb-3">
+            <p className="stages-intro-line text-xs md:text-sm font-heading font-bold text-candy-400 uppercase tracking-[0.5em]">
+              The Evolution of a Legend
             </p>
           </div>
 
-          <div className="overflow-hidden mb-3">
-            <h2 className="stages-intro-line font-display text-display-lg md:text-display-xl font-bold">
-              <span className="text-white">Every </span>
-              <span className="text-gradient-birthday">Age</span>
+          <div className="overflow-hidden mb-4">
+            <h2 className="stages-intro-line font-display text-display-lg md:text-display-xl font-black tracking-tight leading-none">
+              <span className="text-white">From Diapers to </span>
+              <span className="text-gradient-birthday">Destiny</span>
             </h2>
           </div>
 
-          <div className="overflow-hidden mb-6">
-            <h2 className="stages-intro-line font-display text-display-md md:text-display-lg font-bold">
-              <span className="text-white">Tells a </span>
-              <span className="text-gradient-golden">Story</span>
+          <div className="overflow-hidden mb-8">
+            <h2 className="stages-intro-line font-display text-4xl md:text-7xl font-light">
+              <span className="text-white/80">25 Years of </span>
+              <span className="italic font-serif text-pink-400">Iconic Decisions</span>
             </h2>
           </div>
 
-          <p className="stages-intro-desc text-night-400 text-lg md:text-xl max-w-xl mx-auto font-body leading-relaxed">
-            From first breaths to lifetime achievements — scroll through the
-            chapters of celebration
+          <p className="stages-intro-desc text-night-300 text-lg md:text-2xl max-w-2xl mx-auto font-body leading-relaxed opacity-80">
+            A deep dive into the archives of Saron T. — where every age was a vibe,
+            every year was a main character moment, and caffeine was always the co-pilot.
           </p>
 
-          <div className="stages-scroll-hint mt-12 flex flex-col items-center gap-3">
-            <div className="w-[1px] h-12 bg-gradient-to-b from-transparent via-candy-400/50 to-transparent" />
-            <span className="text-night-500 text-xs font-mono uppercase tracking-[0.2em]">
-              Scroll to begin
+          <div className="stages-scroll-hint mt-16 flex flex-col items-center gap-4">
+            <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-pink-400/50 to-transparent" />
+            <span className="text-pink-300/60 text-[10px] font-sans uppercase tracking-[0.6em] animate-pulse">
+              Behold the Timeline
             </span>
-            <div className="w-6 h-10 rounded-full border border-night-600 flex items-start justify-center p-1.5">
-              <div className="w-1 h-2.5 rounded-full bg-candy-400 animate-bounce" />
-            </div>
           </div>
         </div>
 
         {/* Bottom gradient */}
-        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-night-950 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-60 bg-gradient-to-t from-night-950 via-night-950/80 to-transparent" />
       </div>
 
       {/* ===== FULL-SCREEN STAGE CARDS ===== */}
@@ -613,7 +625,7 @@ export function LifeStagesSection() {
             <span className="text-gradient-birthday">Worth Celebrating</span>
           </h3>
           <p className="text-night-400 text-lg font-body">
-            Create a birthday wish that honors their unique journey
+            wish You the best Birthday year ahead
           </p>
         </div>
       </div>

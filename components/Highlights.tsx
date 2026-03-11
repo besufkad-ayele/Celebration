@@ -37,7 +37,7 @@ export default function Highlights() {
           >
             <div className="absolute -inset-4 bg-gradient-to-tr from-pink-500/30 to-transparent blur-3xl rounded-3xl opacity-50" />
             <img
-              src="https://picsum.photos/seed/moment-1/1000/1200"
+              src="/Gallary/IMG_1850.png"
               alt="Special Moment"
               className="relative rounded-3xl shadow-2xl w-full aspect-[4/5] object-cover"
               referrerPolicy="no-referrer"
@@ -60,24 +60,24 @@ export default function Highlights() {
             <div className="space-y-6">
               <div className="flex items-center gap-4 text-pink-400">
                 <div className="h-[1px] w-12 bg-pink-400/50" />
-                <span className="uppercase tracking-[0.3em] text-sm font-semibold">One of Your Proudest Chapters</span>
+                <span className="uppercase tracking-[0.3em] text-sm font-semibold">A Major Main Character Moment</span>
               </div>
-              <h3 className="text-4xl md:text-5xl font-display leading-tight">
-                The Day You Conquered Your Biggest Dream
+              <h3 className="text-4xl md:text-5xl font-display leading-tight text-white">
+                The Day the Graduation Cap Finally Stayed On
               </h3>
               <p className="text-white/60 font-serif text-lg leading-relaxed">
-                We watched you pour your heart and soul into this journey. There were moments of doubt, but your spirit never wavered. When you finally achieved it, the pride we felt was beyond words. You showed us all what true resilience looks like.
+                2024 was the year the world realized what we already knew: Saron T. is unstoppable. Between the late-night study sessions fueled by sheer willpower (and 4 iced coffees) and the final walk across that stage, you proved that grace under pressure is your literal superpower. Now you're out here making 25 look like a professional sport.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div className="space-y-2">
                 <div className="text-3xl font-display text-pink-300">2024</div>
-                <div className="text-white/40 text-sm uppercase tracking-widest">The Year of Growth</div>
+                <div className="text-white/40 text-[10px] uppercase tracking-[0.3em]">The Era of Domination</div>
               </div>
               <div className="space-y-2">
-                <div className="text-3xl font-display text-orange-300">∞</div>
-                <div className="text-white/40 text-sm uppercase tracking-widest">Endless Possibilities</div>
+                <div className="text-3xl font-display text-orange-300">2026</div>
+                <div className="text-white/40 text-[10px] uppercase tracking-[0.3em]">Unstoppable Momentum</div>
               </div>
             </div>
 

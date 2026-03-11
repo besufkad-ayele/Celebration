@@ -3,121 +3,76 @@ import { BirthdayTheme, FormStep } from "@/types";
 
 export const LIFE_STAGES = [
   {
-    age: "0-1",
-    title: "The Grand Arrival",
-    emoji: "👶",
-    description:
-      "A tiny miracle enters the world. Every giggle, every first glance — the beginning of a beautiful story that will unfold for a lifetime.",
-    color: "#FDA4AF",
-    bgColor: "#4C0519",
-    image:
-      "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80",
-    subtitle: "Where it all begins",
-    quote: "Every child begins the world again.",
-  },
-  {
-    age: "2-5",
-    title: "Tiny Explorer",
-    emoji: "🧒",
-    description:
-      "First steps turn into running. First words turn into endless questions. The world is a playground of infinite wonder and discovery.",
-    color: "#FCD34D",
-    bgColor: "#451A03",
-    image:
-      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
-    subtitle: "Wonder in every step",
-    quote: "Children see magic because they look for it.",
-  },
-  {
-    age: "6-12",
-    title: "Adventure Begins",
-    emoji: "🎒",
-    description:
-      "School days bring new friendships, first adventures, and the discovery of passions that might last a lifetime. Every day is a new chapter.",
-    color: "#14B8A6",
-    bgColor: "#042F2E",
-    image:
-      "https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&q=80",
-    subtitle: "Friendships & first dreams",
-    quote: "The adventure of life is to learn.",
-  },
-  {
-    age: "13-17",
-    title: "Rising Star",
-    emoji: "⭐",
-    description:
-      "Identity takes shape. Dreams grow bolder. From first heartbeats of independence to the courage of self-expression — a star begins to shine.",
-    color: "#A855F7",
-    bgColor: "#3B0764",
-    image:
-      "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
-    subtitle: "Finding your light",
-    quote: "Youth is the gift of nature, but age is a work of art.",
-  },
-  {
-    age: "18-25",
-    title: "World Awaits",
-    emoji: "🌍",
-    description:
-      "The doors of the world swing wide open. Independence, ambition, first real adventures — the horizon stretches endlessly with promise and possibility.",
-    color: "#3B82F6",
-    bgColor: "#172554",
-    image:
-      "https://images.unsplash.com/photo-1530099486328-e021101a494a?w=800&q=80",
-    subtitle: "Endless possibilities",
-    quote: "The world belongs to those who dream.",
-  },
-  {
-    age: "26-35",
-    title: "Building Legacy",
-    emoji: "🏗️",
-    description:
-      "Careers blossom, relationships deepen, and purpose crystallizes. This is the decade of creation — building the foundation of a remarkable life.",
-    color: "#F97316",
-    bgColor: "#431407",
-    image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
-    subtitle: "Creating your mark",
-    quote: "The best way to predict the future is to create it.",
-  },
-  {
-    age: "36-50",
-    title: "Golden Chapter",
-    emoji: "✨",
-    description:
-      "Wisdom meets vitality. Success is redefined. Life's richest experiences unfold — deeper connections, greater achievements, and the beauty of knowing yourself.",
-    color: "#FBBF24",
-    bgColor: "#451A03",
-    image:
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
-    subtitle: "Wisdom meets joy",
-    quote: "Age is an issue of mind over matter.",
-  },
-  {
-    age: "51-65",
-    title: "Silver Crown",
+    age: "0-7",
+    title: "The Sovereign Spirit",
     emoji: "👑",
     description:
-      "A crown earned through decades of living, loving, and learning. Every silver strand tells a story of resilience, grace, and hard-won wisdom.",
-    color: "#C084FC",
-    bgColor: "#3B0764",
-    image:
-      "https://images.unsplash.com/photo-1447005497901-b3e9ee359928?w=800&q=80",
-    subtitle: "Grace & experience",
-    quote: "Growing old is mandatory. Growing up is optional.",
+      "Saron enters the building. Communication was mostly high-pitched screams and adorable smiles. First word was likely 'More' (attention? legacy?).",
+    color: "#FDA4AF",
+    bgColor: "#4C0519",
+    image: "/timeline/0-7.png",
+    subtitle: "The Sovereign Era",
+    quote: "I'm not crying, I'm just testing your patience.",
   },
   {
-    age: "66+",
-    title: "Living Legend",
-    emoji: "🌟",
+    age: "8-14",
+    title: "Playground Critic",
+    emoji: "🎒",
     description:
-      "A lifetime of stories, love, laughter, and legacy. Every wrinkle is a medal. Every memory is a treasure. You are a living testament to a life well lived.",
-    color: "#F43F5E",
-    bgColor: "#4C0519",
-    image:
-      "https://images.unsplash.com/photo-1517456215183-9a2c3a1f7c93?w=800&q=80",
-    subtitle: "A lifetime of stories",
-    quote: "The best is yet to come.",
+      "Mastered the art of 'The Puppy Dog Eyes'. Spent 90% of her time negotiating bedtime and building literal forts that were structurally sounder than most apartments.",
+    color: "#FCD34D",
+    bgColor: "#451A03",
+    image: "/timeline/8-14.png",
+    subtitle: "Fort Architecture Specialist",
+    quote: "The floor is lava, and I'm the floor's worst enemy.",
+  },
+  {
+    age: "15-18",
+    title: "The Main Character",
+    emoji: "💅",
+    description:
+      "Middle school drama was basically a full-time job. Perfected the 'I'm not mad, just disappointed' look and probably thought her fashion choices were iconic (Narrator: They were).",
+    color: "#14B8A6",
+    bgColor: "#042F2E",
+    image: "/timeline/15-18.png",
+    subtitle: "Director of Drama Operations",
+    quote: "It's not a phase, it's a lifestyle choice.",
+  },
+  {
+    age: "19-24",
+    title: "The 'Adult-ish' Era",
+    emoji: "🚗",
+    description:
+      "Got a driver's license (parents' stress levels: 100%). Thought she knew everything about everything. Hint: She did not. But the eyeliner? On point.",
+    color: "#A855F7",
+    bgColor: "#3B0764",
+    image: "/timeline/18-24.png",
+    subtitle: "Expert in Selective Listening",
+    quote: "I'm basically an adult, but can I have $20?",
+  },
+  {
+    age: "24",
+    title: "Caffeine & Chaos",
+    emoji: "☕",
+    description:
+      "The University years. Survived on 3 hours of sleep, iced coffee, and pure ambition. Realized that 'Adulting' is a scam, but she's winning anyway.",
+    color: "#3B82F6",
+    bgColor: "#172554",
+    image: "/timeline/recent.png",
+    subtitle: "Caffeine Dependency Specialist",
+    quote: "I have 5 assignments, 3 midterms, and a coffee addiction. I'm thriving.",
+  },
+  {
+    age: "25",
+    title: "Quarter-Life Queen",
+    emoji: "✨",
+    description:
+      "25 years of brilliance. CEO of her own destiny and officially too young to be this wise. Now she's a master of the perfect selfie and knowing exactly when the skincare sale starts.",
+    color: "#F97316",
+    bgColor: "#4c0519",
+    image: "/hero image card.png",
+    subtitle: "Chief Slay Executive",
+    quote: "25 never looked this good. Est. 25 years ago, and still the main event.",
   },
 ];
 

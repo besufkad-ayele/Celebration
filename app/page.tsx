@@ -28,10 +28,11 @@ export default function Home() {
           >
             <Hero />
             <LifeStagesSection />
+             <Gallery />
             <Timeline />
-            <Highlights />
-            <Testimonials />
-            <Gallery />
+            {/* <Highlights /> */}
+            {/* <Testimonials /> */}
+           
             <Qualities />
             <Ending />
             

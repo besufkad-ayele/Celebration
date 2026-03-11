@@ -6,7 +6,7 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     font-family: system-ui, -apple-system, sans-serif;
   }
@@ -16,29 +16,55 @@
   .glass {
     @apply bg-white/5 backdrop-blur-md border border-white/10;
   }
-  
+
   .text-gradient {
     @apply bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent;
   }
-  
+
   .font-display {
     @apply font-sans;
   }
-  
+
   .animate-float {
     animation: float 6s ease-in-out infinite;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
   }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes gradient-xy {
+
+  0%,
+  100% {
+    background-size: 400% 400%;
+    background-position: left center;
+  }
+
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
 }
 
 /* src/app/globals.css — APPEND these additions */
 
 /* ===== LifeStages Specific ===== */
 @layer components {
+
   /* Smooth image loading */
   .stage-image-inner {
     will-change: transform;
@@ -62,4 +88,27 @@
   .will-change-filter {
     will-change: filter;
   }
+
+  .bg-mesh {
+    background-image:
+      radial-gradient(at 0% 0%, rgba(244, 63, 94, 0.15) 0, transparent 50%),
+      radial-gradient(at 50% 0%, rgba(168, 85, 247, 0.15) 0, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(249, 115, 22, 0.15) 0, transparent 50%);
+  }
+
+  .glass-card {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] shadow-2xl;
+  }
+
+  .text-gradient-birthday {
+    @apply bg-gradient-to-r from-candy-400 via-royal-400 to-birthday-500 bg-clip-text text-transparent;
+  }
+
+  .cursor-hover {
+    @apply transition-transform duration-300;
+  }
+}
+
+.animate-gradient-xy {
+  animation: gradient-xy 3s ease infinite;
 }
