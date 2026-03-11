@@ -34,3 +34,32 @@
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
 }
+
+/* src/app/globals.css — APPEND these additions */
+
+/* ===== LifeStages Specific ===== */
+@layer components {
+  /* Smooth image loading */
+  .stage-image-inner {
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  /* Text stroke fallback for Firefox */
+  @supports not (-webkit-text-stroke: 1px white) {
+    .stage-age-num span {
+      color: rgba(255, 255, 255, 0.05) !important;
+    }
+  }
+}
+
+/* Disable smooth scroll for pinned sections (Lenis conflict fix) */
+@layer utilities {
+  .will-change-clip {
+    will-change: clip-path;
+  }
+
+  .will-change-filter {
+    will-change: filter;
+  }
+}
