@@ -70,7 +70,7 @@ export const LIFE_STAGES = [
       "25 years of brilliance. CEO of her own destiny and officially too young to be this wise. Now she's a master of the perfect selfie and knowing exactly when the skincare sale starts.",
     color: "#F97316",
     bgColor: "#4c0519",
-    image: "/hero image card.png",
+    image: "/hero-image-card.png",
     subtitle: "Chief Slay Executive",
     quote: "25 never looked this good. Est. 25 years ago, and still the main event.",
   },

@@ -58,7 +58,7 @@ export default function Hero() {
           className="absolute inset-0 z-0 pointer-events-none"
         >
           <img
-            src="/hero image card.png"
+            src="/hero-image-card.png"
             alt=""
             aria-hidden
             className="h-full w-full object-cover"
@@ -114,7 +114,7 @@ export default function Hero() {
                     >
                       {/* Portrait Front side */}
                       <div className="absolute inset-0 overflow-hidden rounded-[2rem] md:rounded-[3rem] border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.5)] [backface-visibility:hidden]">
-                        <img src="/hero image card.png" alt="Saron" className="h-full w-full object-cover" />
+                        <img src="/hero-image-card.png" alt="Saron" className="h-full w-full object-cover" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-white/10" />
                       </div>
 

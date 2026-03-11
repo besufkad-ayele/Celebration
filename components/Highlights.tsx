@@ -37,7 +37,7 @@ export default function Highlights() {
           >
             <div className="absolute -inset-4 bg-gradient-to-tr from-pink-500/30 to-transparent blur-3xl rounded-3xl opacity-50" />
             <img
-              src="/Gallary/IMG_1850.png"
+              src="/gallery/IMG_1850.png"
               alt="Special Moment"
               className="relative rounded-3xl shadow-2xl w-full aspect-[4/5] object-cover"
               referrerPolicy="no-referrer"
